@@ -1,0 +1,50 @@
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+*.log
+
+# ROM files and firmware (too large for git)
+*.img
+*.zip
+firmware/
+roms/downloads/
+backups/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Dependencies
+node_modules/
+venv/
+.env
+
+# User-specific files
+*.user
+config.local.*
+settings.local.*
+
+# Log files
+*.log
+logs/
+
+# Cache directories
+.cache/
+__pycache__/
+*.pyc
+*.pyo
