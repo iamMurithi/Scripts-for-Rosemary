@@ -1,15 +1,10 @@
-# 🤝 Contributing to Redmi Note 10S ROM Hub
-
-Thank you for your interest in contributing! This project thrives because of community contributions. Whether you're a beginner or expert, there are many ways to help.
-
-## 🎯 Ways to Contribute
+## Ways to Contribute
 
 ### 📝 Documentation
 - **Guides & Tutorials**: Share your flashing experiences
 - **ROM Reviews**: Test and review custom ROMs
 - **Troubleshooting**: Document solutions to problems
 - **Device Information**: Update specs and technical details
-- **Translation**: Help translate guides to other languages
 
 ### 🛠️ Tools & Scripts
 - **Automation Scripts**: Improve flashing automation
@@ -29,21 +24,10 @@ Thank you for your interest in contributing! This project thrives because of com
 - **Script Issues**: Report problems with automation
 - **Missing Information**: Identify gaps in documentation
 
-## 📋 Contribution Guidelines
-
-### 📝 Content Standards
-
-#### Writing Style
-- **Clear and concise**: Use simple, beginner-friendly language
-- **Step-by-step**: Break complex processes into clear steps
-- **Safety first**: Always emphasize risks and precautions
-- **Inclusive**: Write for all skill levels
-- **Tested**: Only document procedures you've personally tested
 
 #### Documentation Format
 - Use Markdown for all documentation
 - Follow existing file naming conventions
-- Include appropriate emoji for visual appeal
 - Add table of contents for longer documents
 - Use code blocks for commands and code
 
@@ -66,7 +50,7 @@ roms/
 └── recovery/       # Recovery images info
 ```
 
-### 🔧 Technical Guidelines
+### Technical Guidelines
 
 #### Scripts and Tools
 - **Cross-platform**: Support Windows, macOS, and Linux when possible
@@ -75,14 +59,7 @@ roms/
 - **Safety checks**: Verify device state before operations
 - **Backup warnings**: Always prompt for backups
 
-#### Code Style
-- Use consistent indentation (2 or 4 spaces)
-- Include shebang lines for shell scripts
-- Use meaningful variable names
-- Add comments for complex operations
-- Follow existing code patterns
-
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Fork the Repository
 ```bash
@@ -126,7 +103,7 @@ git push origin your-branch-name
 # Create Pull Request on GitHub
 ```
 
-## 📝 Pull Request Guidelines
+## Pull Request Guidelines
 
 ### PR Title Format
 - Use descriptive titles
@@ -163,21 +140,7 @@ Brief description of changes made.
 - [ ] I have tested my changes
 ```
 
-## 🔍 Review Process
-
-### What Reviewers Look For
-1. **Accuracy**: Is the information correct?
-2. **Safety**: Are risks and warnings clearly stated?
-3. **Clarity**: Is it easy to understand?
-4. **Completeness**: Are all necessary steps included?
-5. **Formatting**: Does it follow project standards?
-
-### Response Time
-- Most PRs are reviewed within 48 hours
-- Complex changes may take longer
-- Feel free to ask for updates after 72 hours
-
-## 🏷️ Issue Labels
+## Issue Labels
 
 When creating issues, use appropriate labels:
 
@@ -189,32 +152,7 @@ When creating issues, use appropriate labels:
 - `question` - General questions
 - `rom-request` - Request for new ROM information
 
-## 🌟 Recognition
-
-Contributors are recognized in several ways:
-
-### Hall of Fame
-Top contributors are listed in our [CONTRIBUTORS.md](CONTRIBUTORS.md) file.
-
-### Badge System
-- 🥇 **Gold**: 10+ merged PRs
-- 🥈 **Silver**: 5+ merged PRs  
-- 🥉 **Bronze**: 2+ merged PRs
-- ⭐ **Star**: First contribution
-
-### Special Recognition
-- **ROM Tester**: Active ROM testing and reviews
-- **Documentation Master**: Exceptional documentation contributions
-- **Script Wizard**: Outstanding automation contributions
-- **Community Helper**: Active in discussions and support
-
 ## 🆘 Need Help?
-
-### Getting Help
-- **Discussions**: Use [GitHub Discussions](../../discussions) for questions
-- **Issues**: Create an issue for bugs or feature requests
-- **Discord/Telegram**: Join community chat groups
-- **Mentorship**: Ask for a mentor for complex contributions
 
 ### Common Questions
 
@@ -222,41 +160,10 @@ Top contributors are listed in our [CONTRIBUTORS.md](CONTRIBUTORS.md) file.
 A: Absolutely! Documentation improvements, testing, and reporting issues are valuable contributions.
 
 **Q: I don't have coding experience. How can I help?**
-A: Writing guides, testing ROMs, updating information, and helping other users are all important contributions.
+A: Updating guides, testing ROMs, updating information, and helping other users.
 
 **Q: My device is different. Can I still contribute?**
-A: While this repo focuses on Redmi Note 10S, general Android knowledge and processes often apply across devices.
-
-**Q: How do I know what to work on?**
-A: Check the [Issues](../../issues) page for tasks labeled `help wanted` or `good first issue`.
-
-## 📜 Code of Conduct
-
-### Our Standards
-- **Be respectful**: Treat everyone with respect and kindness
-- **Be inclusive**: Welcome contributors from all backgrounds
-- **Be helpful**: Assist newcomers and share knowledge
-- **Be patient**: Everyone learns at different speeds
-- **Be constructive**: Provide helpful feedback
-
-### Unacceptable Behavior
-- Harassment or discrimination
-- Trolling or inflammatory comments
-- Publishing private information
-- Promoting illegal activities
-- Sharing copyrighted content without permission
-
-### Enforcement
-Violations may result in:
-1. Warning
-2. Temporary ban
-3. Permanent ban
-
-Report issues to maintainers via GitHub or private message.
-
-## 🎉 Thank You!
-
-Every contribution, no matter how small, helps make this project better for the entire community. Thank you for being part of the Redmi Note 10S ROM community!
+A: This repo focuses on Redmi Note 10S, general Android knowledge and processes often apply across devices.
 
 ---
 
