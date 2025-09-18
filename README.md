@@ -1,4 +1,4 @@
-# Redmi Note 10S (Rosemary) - Complete ROM & Development Hub 📱
+# Redmi Note 10S (Rosemary) References
 
 One-stop resource for **Xiaomi Redmi Note 10S (codename: rosemary)** ROM flashing, custom firmware, and Android development.
 
