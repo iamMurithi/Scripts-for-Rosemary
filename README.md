@@ -1,10 +1,8 @@
 # Redmi Note 10S (Rosemary) - Complete ROM & Development Hub 📱
 
-Welcome to the ultimate one-stop resource for **Xiaomi Redmi Note 10S (codename: rosemary)** ROM flashing, custom firmware, and Android development! This repository is designed to guide users from beginner to intermediate levels through their ROM flashing journey.
+One-stop resource for **Xiaomi Redmi Note 10S (codename: rosemary)** ROM flashing, custom firmware, and Android development.
 
 ## 🚀 Quick Start
-
-**New to ROM flashing?** Start here:
 - [📖 Beginner's Guide](docs/guides/beginners-guide.md) - Essential reading before you start
 - [🔧 Prerequisites & Setup](docs/guides/prerequisites.md) - Tools and preparation
 - [⚡ Quick Flash Guide](docs/guides/quick-flash.md) - Fast track for experienced users
@@ -27,36 +25,22 @@ Welcome to the ultimate one-stop resource for **Xiaomi Redmi Note 10S (codename:
 - **[Custom ROMs](roms/custom/)** - LineageOS, Pixel Experience, and more
 - **[Recovery Images](roms/recovery/)** - TWRP, OrangeFox, and custom recoveries
 
-## 🎯 What's Inside
-
-This repository provides:
+## This repository provides:
 
 ✅ **Complete flashing guides** for beginners to intermediate users  
 ✅ **Automated scripts** for safe and reliable firmware flashing  
 ✅ **Comprehensive ROM database** with download links and changelogs  
 ✅ **Troubleshooting guides** for common issues and solutions  
 ✅ **Device-specific information** including partition layouts and technical specs  
-✅ **Tool collection** for developers and advanced users  
+✅ **Tool collection** for advanced users  
 
-## 🚨 Important Disclaimers
+## Disclaimers
 
-⚠️ **WARNING**: ROM flashing carries inherent risks and may void your warranty. Always:
+⚠️ **WARNING**: ROM flashing carries inherent risks. Always:
 - Read documentation thoroughly before proceeding
 - Ensure proper backups of your device
 - Understand the risks involved
 - Follow instructions carefully
-
-**We are not responsible for bricked devices, lost data, or any damage that may occur.**
-
-## 🤝 Contributing
-
-This is a community-driven project! Help us expand and improve:
-- Submit ROM information and reviews
-- Contribute guides and tutorials
-- Report issues and bugs
-- Share your flashing experiences
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## 🔗 Quick Links
 
@@ -68,14 +52,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 | [Flash Custom ROM](docs/guides/custom-rom-flash.md) | Complete ROM flashing process |
 | [Emergency Recovery](docs/troubleshooting/unbrick-guide.md) | Unbrick and recovery procedures |
 
-## 📞 Support & Community
-
-- **Issues**: Report bugs and problems via [GitHub Issues](../../issues)
-- **Discussions**: Join conversations in [GitHub Discussions](../../discussions)  
-- **Updates**: Watch this repository for the latest additions
-
----
-
-**Happy Flashing! 🎉**
-
-*Last updated: September 2025 | Maintained by the community*
+*Last updated: September 2025
