@@ -1,13 +1,10 @@
-# Redmi Note 10S (Rosemary) References
-
-One-stop resource for **Xiaomi Redmi Note 10S (codename: rosemary)** ROM flashing, custom firmware, and Android development.
-
-## 🚀 Quick Start
+# Reference Page for Xiaomi Redmi Note 10S (codename Rosemary)
+## Quick Start
 - [📖 Beginner's Guide](docs/guides/beginners-guide.md) - Essential reading before you start
 - [🔧 Prerequisites & Setup](docs/guides/prerequisites.md) - Tools and preparation
 - [⚡ Quick Flash Guide](docs/guides/quick-flash.md) - Fast track for experienced users
 
-## 📋 Table of Contents
+## Table of Contents
 
 ### 📚 Documentation
 - **[Guides](docs/guides/)** - Step-by-step instructions for all skill levels
@@ -36,13 +33,13 @@ One-stop resource for **Xiaomi Redmi Note 10S (codename: rosemary)** ROM flashin
 
 ## Disclaimers
 
-⚠️ **WARNING**: ROM flashing carries inherent risks. Always:
+⚠️ ROM flashing carries inherent risks. Always:
 - Read documentation thoroughly before proceeding
 - Ensure proper backups of your device
 - Understand the risks involved
 - Follow instructions carefully
 
-## 🔗 Quick Links
+## Quick Links
 
 | Resource | Description |
 |----------|-------------|
