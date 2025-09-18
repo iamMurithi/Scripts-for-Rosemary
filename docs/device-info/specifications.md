@@ -188,10 +188,7 @@ fastboot set_active a  # or b
 # Check unlock status
 fastboot getvar unlocked
 
-# Flash recovery
-fastboot flash recovery recovery.img
-
-# Flash boot
+# Flash boot (recovery)
 fastboot flash boot boot.img
 ```
 
@@ -243,9 +240,9 @@ fastboot flash boot boot.img
 ### Recovery Support
 | Recovery | Status | Notes |
 |----------|--------|-------|
-| **TWRP** | ✅ Official | Fully functional |
-| **OrangeFox** | ✅ Unofficial | Feature-rich |
-| **PitchBlack** | ✅ Available | Minimal design |
+| **TWRP** | ❌ Unofficial | |
+| **OrangeFox** | ❌ Unofficial | Sufficient Features |
+| **PitchBlack** | ❌ Untested | |
 
 ### Kernel Development
 - **Stock Kernel**: MediaTek provided
@@ -262,4 +259,4 @@ fastboot flash boot boot.img
 
 ---
 
-*Last updated: Current specifications | Sources: Official Xiaomi, GSMArena, community testing*
+*Last updated: September 2025 Current specifications | Sources: Official Xiaomi, GSMArena, community testing*
