@@ -1,10 +1,11 @@
-# Firmware-Flashing-Script-for-Redmi-Note-10S-rosemary-
-A simple, automated shell script to flash the low-level firmware on the Redmi Note 10S (codenamed rosemary) using the fastboot tool following prerequisite requirements for installing LineageOS V22.2
+# Firmware/ROM Flashing Scripts for Redmi Note 10S rosemary
+A simple, automated shell scripts & Guides for flashing the low-level firmware & CustomROM builds on the Redmi Note 10S (codenamed rosemary) using the fastboot tool following prerequisite requirements from different maintainers
 
 ## The Device: Redmi Note 10S (MTK MT6785)
 
-This script is specifically tailored for the **Redmi Note 10S**. This device utilizes the **MediaTek Helio G95 (MT6785)** chipset, a System-on-a-Chip (SoC) known for its power efficiency and performance in mid-range smartphones. The firmware partitions targeted by this script are common to MediaTek-based Android devices and are crucial for the device's basic functionality.
+This device utilizes the **MediaTek Helio G95 (MT6785)** chipset, a System-on-a-Chip (SoC) known for its power efficiency and performance in mid-range smartphones. The firmware partitions present are common to MediaTek-based Android devices and are crucial for the device's basic functionality.
 
+# 1. Firmware Flashing Script 
 ## Prerequisites
 
 Before running the script, ensure you have the following:
