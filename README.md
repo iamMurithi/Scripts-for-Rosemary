@@ -1,5 +1,5 @@
-# Firmware/ROM Flashing Scripts for Redmi Note 10S rosemary
-A simple, automated shell scripts & Guides for flashing the low-level firmware & CustomROM builds on the Redmi Note 10S (codenamed rosemary) using the fastboot tool following prerequisite requirements from different maintainers
+# Flashing Scripts & Guides for Redmi Note 10S rosemary
+Simple guides & automated shell scripts for flashing firmware & CustomROM builds on the Redmi Note 10S (codenamed rosemary) using the fastboot tool following prerequisite requirements from different maintainers
 
 ## The Device: Redmi Note 10S (MTK MT6785)
 
