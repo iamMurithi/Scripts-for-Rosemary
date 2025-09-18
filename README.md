@@ -1,41 +1,52 @@
-# Flashing Scripts & Guides for Redmi Note 10S rosemary
-Simple guides & automated shell scripts for flashing firmware & CustomROM builds on the Redmi Note 10S (codenamed rosemary) using the fastboot tool following prerequisite requirements from different maintainers
+# Reference Page for Xiaomi Redmi Note 10S (codename Rosemary)
+## Quick Start
+- [📖 Beginner's Guide](docs/guides/beginners-guide.md) - Essential reading before you start
+- [🔧 Prerequisites & Setup](docs/guides/prerequisites.md) - Tools and preparation
+- [⚡ Quick Flash Guide](docs/guides/quick-flash.md) - Fast track for experienced users
 
-## The Device: Redmi Note 10S (MTK MT6785)
+## Table of Contents
 
-This device utilizes the **MediaTek Helio G95 (MT6785)** chipset, a System-on-a-Chip (SoC) known for its power efficiency and performance in mid-range smartphones. The firmware partitions present are common to MediaTek-based Android devices and are crucial for the device's basic functionality.
+### 📚 Documentation
+- **[Guides](docs/guides/)** - Step-by-step instructions for all skill levels
+- **[Tutorials](docs/tutorials/)** - In-depth learning materials
+- **[Device Information](docs/device-info/)** - Technical specifications and details
+- **[Troubleshooting](docs/troubleshooting/)** - Solutions for common issues
 
-# 1. Firmware Flashing Script 
-## Prerequisites
+### 🛠️ Tools & Scripts
+- **[Flashing Scripts](scripts/flashing/)** - Automated firmware flashing tools
+- **[Utilities](scripts/tools/)** - Helper scripts and automation
+- **[Resources](resources/)** - Drivers, firmware files, and images
 
-Before running the script, ensure you have the following:
+### 💾 ROM Collection
+- **[Official ROMs](roms/official/)** - MIUI and official firmware
+- **[Custom ROMs](roms/custom/)** - LineageOS, Pixel Experience, and more
+- **[Recovery Images](roms/recovery/)** - TWRP, OrangeFox, and custom recoveries
 
-1.  **Android Platform Tools**: You need `fastboot` installed and added to your system's `PATH`. You can download the latest tools from the official Android developer website.
-2.  **Git Bash**: The script is written for a Unix-like environment and is intended to be run from Git Bash on Windows.
-3.  **Firmware Files**: You must have the firmware images (e.g., `audio_dsp.img`, `gz.img`, etc.) extracted into the same directory as the script. The `payload-dumper-go` tool can be used to extract these files from a MIUI firmware ZIP archive.
+## This repository provides:
 
-## Usage
+✅ **Complete flashing guides** for beginners to intermediate users  
+✅ **Automated scripts** for safe and reliable firmware flashing  
+✅ **Comprehensive ROM database** with download links and changelogs  
+✅ **Troubleshooting guides** for common issues and solutions  
+✅ **Device-specific information** including partition layouts and technical specs  
+✅ **Tool collection** for advanced users  
 
-1.  Place the `flash_firmware.sh` script in the same folder as your extracted firmware `.img` files.
-2.  Open **Git Bash** and navigate to that folder using the `cd` command.
-3.  Make the script executable: `chmod +x flash_firmware.sh`
-4.  Connect your Redmi Note 10S to your computer and boot it into **fastboot mode** (hold **Volume Down** + **Power**).
-5.  Execute the script: `./flash_firmware.sh`
-6.  Follow the on-screen prompts to confirm the flashing process.
+## Disclaimers
 
-## Understanding the Partitions
+⚠️ ROM flashing carries inherent risks. Always:
+- Read documentation thoroughly before proceeding
+- Ensure proper backups of your device
+- Understand the risks involved
+- Follow instructions carefully
 
-The script flashes several key partitions. These are not standard Android partitions like `/system` or `/data` but are part of the device's low-level firmware.
+## Quick Links
 
-  * **`audio_dsp`**: **Audio Digital Signal Processor.** This partition contains the firmware for the dedicated audio processor, which handles audio encoding, decoding, and effects to offload the main CPU.
-  * **`cam_vpu` (cam\_vpu1, cam\_vpu2, cam\_vpu3)**: **Camera Video Processing Unit.** These partitions contain the firmware for the image and video signal processors. They are essential for handling camera data, image stabilization, and other photography-related tasks.
-  * **`gz`**: **G-Zone.** This refers to a secure partition related to the device's **Trusted Execution Environment (TEE)**. It contains security-related components, including verified boot and secure payment functions.
-  * **`lk`**: **Little Kernel.** This is an early-stage bootloader that runs after the `preloader`. It initializes core components like RAM and other essential hardware before handing control to the main Android bootloader.
-  * **`md1img`**: **Modem Image.** This contains the firmware for the cellular modem. It is responsible for all mobile network functions, including phone calls, SMS, and data connectivity.
-  * **`preloader`**: The very first bootloader to run on a MediaTek SoC. It's a critical, low-level piece of code that initializes the SoC and loads the next bootloader (`lk`) from memory.
-  * **`scp`**: **System Control Processor.** A dedicated, low-power processor that manages background tasks and system states when the main CPU is idle or in sleep mode.
-  * **`spmfw`**: **Standby Power Management Firmware.** This firmware manages the device's power states and transitions, ensuring efficient energy usage.
-  * **`sspm`**: **Secure System Power Management.** A secure version of the `spmfw`, operating within the TEE to handle power management in a trusted environment.
-  * **`tee`**: **Trusted Execution Environment.** A secure operating system that runs alongside Android. It handles sensitive operations like fingerprint authentication and cryptographic key storage.
+| Resource | Description |
+|----------|-------------|
+| [Device Specs](docs/device-info/specifications.md) | Complete technical specifications |
+| [Unlock Bootloader](docs/guides/bootloader-unlock.md) | How to unlock your bootloader |
+| [Install Custom Recovery](docs/guides/custom-recovery.md) | TWRP and recovery installation |
+| [Flash Custom ROM](docs/guides/custom-rom-flash.md) | Complete ROM flashing process |
+| [Emergency Recovery](docs/troubleshooting/unbrick-guide.md) | Unbrick and recovery procedures |
 
------
+*Last updated: September 2025
