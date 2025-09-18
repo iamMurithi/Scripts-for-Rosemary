@@ -166,7 +166,3 @@ A: Updating guides, testing ROMs, updating information, and helping other users.
 A: This repo focuses on Redmi Note 10S, general Android knowledge and processes often apply across devices.
 
 ---
-
-**Happy Contributing! 🚀**
-
-*Let's build the best ROM resource together!*
