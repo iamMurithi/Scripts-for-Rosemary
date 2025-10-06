@@ -133,8 +133,8 @@ Some of the well known projects that have supported Rosemary (Official & Unoffic
 - **Stock**: Original manufacturer software (including user apps, system apps, operating system/skin, low level firmware)
 
 
-## ✅ Next Steps   *(coming soon)*
-
+## ✅ Next Steps 
+*(coming soon)*
 You might want to:
 
 1. 📋 Go to [Prerequisites & Setup](prerequisites.md)
