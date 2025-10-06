@@ -225,10 +225,10 @@ fastboot flash boot boot.img
 ### ❌ Weaknesses
 - No 5G support
 - Plastic build quality
-- MIUI can be heavy
+- Bloated MIUI with launcher ads
 - MediaTek chipset (limited custom kernel support)
 - No wireless charging
-- Mono speaker only
+- Subpar stereo speaker config
 
 ## 🛠️ ROM Development Status
 
