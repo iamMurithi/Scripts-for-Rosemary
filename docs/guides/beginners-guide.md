@@ -1,16 +1,25 @@
 # 📖 Beginner's Guide to ROM Flashing
 
-Welcome to the world of custom ROMs! This guide will help you understand the basics before you start flashing your Redmi Note 10S.
+This guide will help you understand the basics before you start tinkering with your Redmi Note 10S.
 
-## 🤔 What is ROM Flashing?
+## What is ROM Flashing?
 
-ROM (Read-Only Memory) flashing is the process of installing custom firmware on your Android device. This allows you to:
+Flashing a custom ROM is essentially installing an operating system on your phone, different from the one the device manufacturer shipped with the device or provides via over-the-air updates (usually an Android™️ based OS).
+The process is called ROM flashing (Read-Only Memory flashing) since on smartphones, the process involves writing custom software to partitions that are typically not meant to be tampered with.
+The complete OS (and any associated firmware) you'll be installing is simply referred to as a ROM.
 
-- Install different Android versions (newer or older)
-- Get a stock Android experience (like Google Pixel)
+This allows you to:
+
+- Install different Android™️ versions (newer or older)
 - Remove bloatware and improve performance
 - Access advanced customization options
-- Get faster security updates
+- Get the latest security updates
+- Get a different Android experience (like "Stock Android" on Google Pixel devices)
+
+**Note:** *Custom ROMs thrive in the Android ecosystem because the platform’s open-source foundation (AOSP) and OEM-unlockable devices allow developers to modify and redistribute system software; something Apple’s closed, vertically integrated model deliberately prevents.*
+
+*This flexibility exists because Android was designed as a licensable, open-source OS for hardware manufacturers, giving OEMs and developers broad control over system software. Apple, by contrast, builds both hardware and software (iOS operating system) as a single closed ecosystem, leaving no room for third-party system images.*
+
 
 ## 📱 About Your Device
 
@@ -21,15 +30,15 @@ ROM (Read-Only Memory) flashing is the process of installing custom firmware on 
 - **Android Version**: Ships with Android 11 (MIUI 12.5)
 - **Partition Type**: A/B (seamless updates)
 
-## 🚨 Before You Start - READ THIS!
+## 🚨 Before You Start!
 
 ### ⚠️ Risks and Warnings
 
 ROM flashing involves risks:
 - **Voided warranty** - Unlocking bootloader voids manufacturer warranty
-- **Bricking** - Incorrect flashing can make your phone unusable
-- **Data loss** - All personal data will be erased
-- **Banking apps** - Some apps may not work with unlocked bootloader
+- **Bricking** - Incorrect flashing can make your phone completely (& in some cases, permanently) unusable
+- **Data loss** - All personal data on the device prior will be erased
+- **Missing apps** - Some apps may not work once changes are detected on the devices (e.g an unlocked bootloader, root access)
 - **OTA updates** - You'll lose official MIUI updates
 
 ### ✅ Prerequisites Checklist
@@ -51,11 +60,12 @@ You'll need these tools installed:
    - Android Debug Bridge for device communication
    - Download from [Android Developer Tools](https://developer.android.com/studio/releases/platform-tools)
 
-2. **USB Drivers**
-   - For Windows: Install Xiaomi USB drivers
+2. **USB Drivers** 
+   *(incomplete)*
+   - For Windows: Install Xiaomi USB drivers for 'ADB Bootloader Interface'
    - Linux/macOS: Usually work out of the box
 
-3. **Custom Recovery** (TWRP or OrangeFox)
+4. **Custom Recovery** (TWRP or OrangeFox)
    - Required for flashing custom ROMs
    - We'll guide you through installation
 
@@ -71,69 +81,61 @@ Here's what you'll typically do:
 
 ## 🎯 Recommended Learning Path
 
-### Phase 1: Preparation (1-2 hours)
-1. Read this entire guide
+### Phase 1: Preparation
+1. Read this guide fully
 2. Check [Prerequisites & Setup](prerequisites.md)
 3. Backup your device completely
 4. Download necessary files
 
-### Phase 2: Bootloader (30 minutes)
+### Phase 2: Bootloader
 1. Follow [Bootloader Unlock Guide](bootloader-unlock.md)
 2. Verify unlock status
 3. Test basic fastboot commands
 
-### Phase 3: Recovery (30 minutes)
+### Phase 3: Recovery
 1. Install [Custom Recovery](custom-recovery.md)
 2. Learn TWRP basics
 3. Create NANDroid backup
 
-### Phase 4: ROM Flashing (1 hour)
+### Phase 4: ROM Flashing
 1. Choose your first ROM (LineageOS recommended for beginners)
 2. Follow [Custom ROM Flash Guide](custom-rom-flash.md)
 3. Set up your new ROM
 
-## 🔍 Choosing Your First ROM
+## 🔍 Choosing a ROM
 
-For beginners, we recommend:
+For Rosemary (and most devices really), official support from well established communities isn't allways guaranteed. However, unofficial builds can and often are just as stable. [XDA developers](https://www.xda-developers.com/) is a starting point. 
 
-### 🥇 **LineageOS** (Best for beginners)
-- **Pros**: Stable, close to stock Android, regular updates
-- **Cons**: No Google services by default
-- **Best for**: Users wanting clean Android experience
+*sourceforge has been a popular hosting platform for the actual ROM files.*
 
-### 🥈 **Pixel Experience**
-- **Pros**: Google Pixel-like experience, good stability
-- **Cons**: May have occasional bugs
-- **Best for**: Users wanting Pixel phone experience
+Some of the well known projects that have supported Rosemary (Official & Unofficial Builds) include:
 
-### 🥉 **ArrowOS**
-- **Pros**: Good customization options, stable
-- **Cons**: Smaller community
-- **Best for**: Users wanting balance of features and stability
+| Project | Details |
+|---------|---------|
+| 🥇 **LineageOS**| Stable, close to stock Android, regular updates |
+|  | No Google services by default |
+| 🥈 **Pixel Experience** | Google Pixel-like experience, good stability |
+|  | May have occasional bugs |
+| 🥉 **AxionOS** | Good customization options, stable |
+|  | Smaller community |
+| 🥈 **Evolution-X** | Lots of Features, Derived from Lineage |
+|  | tested builds had major bugs, but overall stable |
 
-## 📚 Essential Terms
+## 📚 Glossary of Essential Terms
 
-- **Bootloader**: Low-level software that starts Android
+- **Bootloader**: Low-level software that loads the Android Operating system
 - **Recovery**: Special mode for system maintenance
-- **Fastboot**: Protocol for communicating with bootloader
-- **ADB**: Android Debug Bridge for device communication
-- **NANDroid**: Complete system backup
+- **Fastboot**: Protocol for communicating with bootloader, Special mode for altering bootloader behaviour
+- **ADB**: Android Debug Bridge Tool developed by Google for device communication
+- **NANDroid**: Complete system backup, a 'mirror image' of all partitions
 - **Wipe**: Clearing data/cache partitions
 - **Flash**: Installing firmware/ROMs
-- **Stock**: Original manufacturer firmware
+- **Stock**: Original manufacturer software (including user apps, system apps, operating system/skin, low level firmware)
 
-## 🆘 Help and Support
 
-If you need help:
+## ✅ Next Steps   *(coming soon)*
 
-1. **Check our [Troubleshooting Guide](../troubleshooting/common-issues.md)**
-2. **Search [GitHub Issues](../../../issues)** for similar problems
-3. **Ask in [GitHub Discussions](../../../discussions)**
-4. **Join XDA Developers forums** for community support
-
-## ✅ Next Steps
-
-Ready to proceed? Here's your next actions:
+You might want to:
 
 1. 📋 Go to [Prerequisites & Setup](prerequisites.md)
 2. 🔓 Follow [Bootloader Unlock Guide](bootloader-unlock.md)
@@ -142,6 +144,4 @@ Ready to proceed? Here's your next actions:
 
 ---
 
-**Remember**: Take your time, read carefully, and don't rush. ROM flashing should be enjoyable, not stressful!
-
-*Happy flashing! 🎉*
+*Take your time, read carefully, and don't rush. Happy flashing! 🎉*
