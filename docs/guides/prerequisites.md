@@ -1,25 +1,23 @@
 # 🔧 Prerequisites & Setup
 
-This guide will help you prepare your computer and device for ROM flashing. Follow these steps carefully to ensure a smooth flashing experience.
+This guide will help you prepare your PC and device for ROM flashing.
 
 ## 💻 Computer Requirements
 
 ### Minimum System Requirements
-- **OS**: Windows 10/11, macOS 10.15+, or Linux (Ubuntu 18.04+)
-- **RAM**: 4GB minimum, 8GB recommended
-- **Storage**: 10GB free space for tools and ROM files
-- **USB Port**: USB 2.0 or 3.0 (USB-C with adapter if needed)
+- **OS**: Windows, MacOS , or Linux
+- **Storage**: 15GB free space for tools and ROM files, 25GB recommended
+- **USB Port**: USB 2.0 or 3.0
 
 ### ⚡ Hardware Checklist
-- [ ] **Quality USB Cable**: Use original Xiaomi cable or certified third-party
-- [ ] **Stable Power Supply**: Ensure your laptop is plugged in
-- [ ] **Backup Storage**: External drive or cloud storage for backups
+- [ ] **Quality USB Cable**: Use original or decent third-party (A faulty cable might cause an operation to fail!!!)
+- [ ] **Stable Power Supply**: Ensure your PC is plugged (prefferably use a laptop)
+- [ ] **Backup Storage**: External drive or cloud storage
 
 ## 📱 Device Preparation
 
 ### 🔋 Battery and Power
-- [ ] **Charge to 70%+**: Critical to prevent shutdown during flashing
-- [ ] **Disable auto-sleep**: Keep screen on during process
+- [ ] **Charge to 60%+**: Critical to prevent shutdown during flashing
 - [ ] **Close unnecessary apps**: Free up system resources
 
 ### 🔓 Developer Settings
@@ -36,6 +34,7 @@ This guide will help you prepare your computer and device for ROM flashing. Foll
 3. **Enable OEM Unlocking**:
    - In Developer options, enable `OEM unlocking`
    - This allows bootloader modification
+   - Set up a Xiaomi Mi account and confirm the log in details (crucial!)
 
 ## 🛠️ Software Installation
 
@@ -179,9 +178,9 @@ ROM_Flashing/
 ### Mi Account Requirements
 1. **Sign up for Mi Account**: https://account.xiaomi.com/
 2. **Add device to account**: Go to `Settings` > `Mi Account` > Sign in
-3. **Wait period**: Some devices require 7-day wait after adding to account
-4. **Unlock application**: Apply for bootloader unlock at https://en.miui.com/unlock/
-
+3. **Wait period**: Some accountts require 7-day wait after the device to allow bootloader unlock, some weeks even months!
+4. **Unlock tool**: For Rosemary, you generally only need to donwload the latest Xiaomi unlock tool
+   
 ## 📋 Pre-Flash Checklist
 
 Before starting the flashing process:
@@ -241,14 +240,6 @@ Once you've completed all prerequisites:
 3. 🛠️ Install [Custom Recovery](custom-recovery.md)
 4. 💾 Flash your [Custom ROM](custom-rom-flash.md)
 
-## 🆘 Need Help?
-
-- Check our [Troubleshooting Guide](../troubleshooting/common-issues.md)
-- Ask in [GitHub Discussions](../../../discussions)
-- Search [GitHub Issues](../../../issues)
-
 ---
 
-**Take your time with setup - proper preparation prevents problems!**
-
-*Ready to unlock? Let's go! 🚀*
+*Take your time with setup - proper preparation prevents problems!*
