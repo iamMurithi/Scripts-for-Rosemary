@@ -16,7 +16,7 @@ This allows you to:
 - Get the latest security updates
 - Get a different Android experience (like "Stock Android" on Google Pixel devices)
 
-**Note:** *Custom ROMs thrive in the Android ecosystem because the platform’s open-source foundation (AOSP) and OEM-unlockable devices allow developers to modify and redistribute system software; something Apple’s closed, vertically integrated model deliberately prevents.*
+**Note:** *Custom ROMs thrive in the Android ecosystem because the platform’s open-source foundation (AOSP) and OEM-unlockable devices allow developers to modify and redistribute system software.
 
 *This flexibility exists because Android was designed as a licensable, open-source OS for hardware manufacturers, giving OEMs and developers broad control over system software. Apple, by contrast, builds both hardware and software (iOS operating system) as a single closed ecosystem, leaving no room for third-party system images.*
 
