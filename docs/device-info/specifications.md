@@ -242,6 +242,7 @@ fastboot flash boot boot.img
 |----------|--------|-------|
 | **TWRP** | ❌ Unofficial | |
 | **OrangeFox** | ❌ Unofficial | Sufficient Features |
+| **ROM Specific** | ✔️ Unofficial | Most ROM builds include boot.img |
 | **PitchBlack** | ❌ Untested | |
 
 ### Kernel Development
