@@ -1,4 +1,5 @@
 # Reference Page for Xiaomi Redmi Note 10S (codename Rosemary)
+will clean this up soon
 ## Quick Start
 - [📖 Beginner's Guide](docs/guides/beginners-guide.md) - Essential reading before you start
 - [🔧 Prerequisites & Setup](docs/guides/prerequisites.md) - Tools and preparation
